@@ -8,11 +8,13 @@ An interactive, step-by-step 3D animation of the LeLamp body assembly, in Englis
 
 ## Open it / 打开方式
 
-- **Online / 在线：** [open in the browser](https://raw.githack.com/humancomputerlab/LeLamp/master/docs/assembly_animation/LeLamp_Assembly_Animation.html) (`?lang=en` or `?lang=zh` picks the language).
-- **Offline / 离线：** download [`LeLamp_Assembly_Animation.html`](./LeLamp_Assembly_Animation.html) and double-click it. It is a single self-contained file (~3 MB) and needs no network.
+- **Online / 在线：** [open in the browser](https://htmlpreview.github.io/?https://github.com/humancomputerlab/LeLamp/blob/master/docs/assembly_animation/LeLamp_Assembly_Animation.html) (via htmlpreview.github.io; the first load fetches ~3 MB).
+- **Offline / 离线：** download [`LeLamp_Assembly_Animation.html`](./LeLamp_Assembly_Animation.html) and double-click it. It is a single self-contained file and needs no network. `?lang=en` or `?lang=zh` in the address picks the language.
   下载 `LeLamp_Assembly_Animation.html` 后双击打开即可，单文件、无需联网。
 
-Works in recent Chrome, Edge, Safari and Firefox, on desktop and phone. Drag to rotate, scroll or pinch to zoom, right-drag or Shift+drag to pan, ← → to change steps, Space to auto-play. The 中文 / English button switches language at any time.
+The language follows the browser and can be switched at any time with the 中文 / English button. Drag to rotate, scroll or pinch to zoom, right-drag or Shift+drag to pan, ← → to change steps, Space to auto-play.
+
+Tested in Chromium (desktop and phone-sized viewports). It needs WebGL and `DecompressionStream`, i.e. Chrome/Edge 80+, Safari 16.4+ or Firefox 113+.
 
 ## What it covers / 内容
 
